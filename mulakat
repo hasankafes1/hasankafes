@@ -1,0 +1,32 @@
+<body>
+
+        <div id="takvim">
+                 CSS veya tema yazmadım javascript kısmını yazdım sadece.
+        </div>
+                
+</body>
+</html>
+
+<script>
+    
+    var events = [
+    {'Tarih': new Date(2019, 10, 7),  'Baslik': 'ASD'},
+    {'Tarih': new Date(2019, 11, 17), 'Baslik': 'ASD'},
+    {'Tarih': new Date(2019, 12, 27), 'Baslik': 'ASD'},
+    ];
+    var settings = {
+        Color: '',
+        LinkColor: '',
+        DateTimeFormat: 'mmm, yyyy',
+                    .
+                    .
+                    .
+
+
+
+    };
+    var element = document.getElementById('takvim');
+    takvim(element, events, settings);
+
+
+</script>
